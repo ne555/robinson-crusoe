@@ -4,6 +4,9 @@
 \AnotherAuthor{Traducción: Julio Cortázar}
 \date{}
 
+\usepackage{longtable}
+\newcommand{\fecha}[1]{\emph{#1}}
+
 \begin{document}
 	\maketitle
 	\tableofcontents
@@ -385,11 +388,8 @@
 
 
 \begin{quote}
-
-    LLEGUE A ESTA PLAYA EL
-
+    LLEGUÉ A ESTA PLAYA EL
     30 DE SETIEMBRE DE 1659
-
 \end{quote}
 
 
@@ -407,63 +407,27 @@
     Empecé así a meditar seriamente sobre la condición en que me hallaba y las circunstancias a que me veía reducido, y redacté por escrito mis pensamientos, no tanto por dejarlos a mis herederos, que por lo visto serían pocos, sino para aliviar a mi espíritu de llevarlos constantemente consigo hasta la aflicción. Mi razón empezaba a dominar mis desfallecimientos, veía de consolarme lo mejor posible y a oponer el bien al mal para que mi situación no me pareciera tan desesperada en comparación a otras mucho peores. Todo eso fue escrito imparcialmente, a manera de un debe y haber, señalando los consuelos que me habían sido dados a cambio de las desgracias que sufría, en la siguiente forma:
 
 
+\begin{longtable}{p{.45\linewidth}p{.45\linewidth}}
+	\centerline{LO MALO} & \centerline{LO BUENO}
+	\endhead
 
+He sido arrojado a una isla desierta sin la menor esperanza de rescate.  &
+Pero vivo, sin haberme ahogado como mis compañeros.\\
 
+He sido excluido del resto del mundo, a solas con mi miseria.  &
+Pero también he sido excluido de la muerte, al contrario de toda la tripulación del barco; y Él, que me salvó milagrosamente de tal muerte, puede salvarme igualmente de esta condición en que me hallo. \\
 
+Vivo separado de la humanidad, solitario y desterrado de toda sociedad.&
+Pero no he muerto de hambre en un lugar desierto, privado de toda subsistencia.\\
 
-LO MALO
+No tengo ropas para cubrirme.&
+Pero estoy en un clima cálido donde las ropas me servirían de poco.\\
 
+Carezco de toda defensa contra los animales y los hombres.&
+Pero me encuentro en una isla donde no he visto animales feroces que me amenacen, como los viera en la costa de África. ¿Y si hubiera naufragado allá? Pero Dios envió milagrosamente el barco cerca de la costa para que pudiera sacar de él multitud de cosas necesarias que suplen mis necesidades o me permitirán hacerlo mientras viva.\\
 
-He sido arrojado a una isla desierta sin la menor esperanza de rescate.
-
-He sido excluido del resto del mundo, a solas con mi miseria.
-
-
-
-
-
-
-
-
-
-LO BUENO
-
-
-Pero vivo, sin haberme ahogado como mis compañeros.
-
-Pero también he sido excluido de la muerte, al contrario de toda la tripulación del barco; y El, que me salvó milagrosamente de tal muerte, puede salvarme igualmente de esta condición en que me hallo.
-
-
-LO MALO
-
-
-Vivo separado de la humanidad, solitario y desterrado de toda sociedad. No tengo ropas para cubrirme.
-
-Carezco de toda defensa contra los animales y los hombres.
-
-No tengo a nadie con quien hablar, a nadie que me consuele.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LO BUENO
-
-
-Pero no he muerto de hambre en un lugar desierto, privado de toda subsistencia.
-
-Pero estoy en un clima cálido donde las ropas me servirían de poco.
-
-Pero me encuentro en una isla donde no he visto animales feroces que me amenacen, como los viera en la costa de África. ¿Y si hubiera naufragado allá? Pero Dios envió milagrosamente el barco cerca de la costa para que pudiera sacar de él multitud de cosas necesarias que suplen mis necesidades o me permitirán hacerlo mientras viva.
+No tengo a nadie con quien hablar, a nadie que me consuele. &
+\end{longtable}
 
 
 
@@ -481,23 +445,23 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    FRAGMENTOS DEL DIARIO
+	\subsection*{FRAGMENTOS DEL DIARIO}
 
 
 
-    4 de noviembre — Empecé esta mañana a reglar mis horas de trabajo, de salidas, sueño y esparcimiento. Todas las mañanas partía con mi escopeta por espacio de dos o tres horas, siempre que no lloviera; luego trabajaba hasta las once más o menos, comía, y me echaba a dormir de doce a dos por ser intolerable el calor a tales horas. A la tarde volvía a trabajar. La tarea de este día y del siguiente fue dedicada enteramente a la construcción de la mesa, sintiéndome todavía muy torpe como carpintero, aunque con el tiempo llegué a ser tan diestro como cualquier otro.
+	\fecha{4 de noviembre} — Empecé esta mañana a reglar mis horas de trabajo, de salidas, sueño y esparcimiento. Todas las mañanas partía con mi escopeta por espacio de dos o tres horas, siempre que no lloviera; luego trabajaba hasta las once más o menos, comía, y me echaba a dormir de doce a dos por ser intolerable el calor a tales horas. A la tarde volvía a trabajar. La tarea de este día y del siguiente fue dedicada enteramente a la construcción de la mesa, sintiéndome todavía muy torpe como carpintero, aunque con el tiempo llegué a ser tan diestro como cualquier otro.
 
 
 
-    5  de noviembre — Salí con la escopeta y mi perro, matando un gato montes. Piel muy suave, pero carne imposible de comer. Desollaba los animales que había cazado para aprovechar después las pieles. Volviendo por la playa vi toda clase de aves marinas desconocidas para mí; me sorprendieron y casi asustaron a dos o tres focas, y mientras trataba de verificar qué clase de animales eran las vi huir en el mar.
+	\fecha{5  de noviembre} — Salí con la escopeta y mi perro, matando un gato montes. Piel muy suave, pero carne imposible de comer. Desollaba los animales que había cazado para aprovechar después las pieles. Volviendo por la playa vi toda clase de aves marinas desconocidas para mí; me sorprendieron y casi asustaron a dos o tres focas, y mientras trataba de verificar qué clase de animales eran las vi huir en el mar.
 
 
 
-    6  de noviembre — Después del paseo matinal seguí trabajando en la mesa y la terminé, aunque no a mi gusto; muy pronto me di cuenta de cómo podía mejorarla.
+	\fecha{6  de noviembre} — Después del paseo matinal seguí trabajando en la mesa y la terminé, aunque no a mi gusto; muy pronto me di cuenta de cómo podía mejorarla.
 
 
 
-    7  de noviembre — El buen tiempo parece mantenerse firme. Pasé desde el 7 hasta parte del 12 (salvo el domingo 11) trabajando en la construcción de una silla, y logré por fin darle una forma aceptable aunque no de mi gusto; varias veces la deshice a mitad de trabajo.
+	\fecha{7  de noviembre} — El buen tiempo parece mantenerse firme. Pasé desde el 7 hasta parte del 12 (salvo el domingo 11) trabajando en la construcción de una silla, y logré por fin darle una forma aceptable aunque no de mi gusto; varias veces la deshice a mitad de trabajo.
 
 
 
@@ -505,7 +469,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    17 de noviembre — Empecé a excavar la roca detrás de mi tienda para tener más lugar de almacenamiento.
+	\fecha{17 de noviembre} — Empecé a excavar la roca detrás de mi tienda para tener más lugar de almacenamiento.
 
 
 
@@ -513,7 +477,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    18 de noviembre — Explorando los bosques encontré un árbol de esa madera que en Brasil llaman palo de hierro por su gran dureza; si no era el mismo se le parecía mucho, tanto que con enorme trabajo y estropeando la hoja de mi hacha conseguí cortar un pedazo y traerlo a casa no sin esfuerzos porque pesaba enormemente.
+	\fecha{18 de noviembre} — Explorando los bosques encontré un árbol de esa madera que en Brasil llaman palo de hierro por su gran dureza; si no era el mismo se le parecía mucho, tanto que con enorme trabajo y estropeando la hoja de mi hacha conseguí cortar un pedazo y traerlo a casa no sin esfuerzos porque pesaba enormemente.
 
     La extraordinaria dureza de esta madera me obligó a perder mucho tiempo mientras poco a poco le iba dando la forma de una pala, con un mango igual al que usamos en Inglaterra; desgraciadamente, como no tenía hierro para guarnecer la extremidad más ancha, bien poco habría de durarme su filo.
 
@@ -521,7 +485,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    23 de noviembre — Volví a mi excavación, dueño ya de herramientas suficientes para ello, y trabajé dieciocho días consecutivos, tanto como me lo permitían mis fuerzas y el tiempo disponible, en ensanchar y profundizar la caverna para que mis efectos cupieran adecuadamente.
+	\fecha{23 de noviembre} — Volví a mi excavación, dueño ya de herramientas suficientes para ello, y trabajé dieciocho días consecutivos, tanto como me lo permitían mis fuerzas y el tiempo disponible, en ensanchar y profundizar la caverna para que mis efectos cupieran adecuadamente.
 
 
 
@@ -529,53 +493,53 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    10 de diciembre — Empezaba a considerar concluida mi caverna cuando debido acaso a la excesiva anchura se produjo un hundimiento lateral, cayendo tanta piedra que llegó a atemorizarme y no sin motivo, pues si hubiera estado debajo no habría necesitado sepulturero. Este desastre me obligó a reanudar el duro trabajo, sacando fuera lo que se había desplomado y asegurando el techo para que no volara.
+	\fecha{10 de diciembre} — Empezaba a considerar concluida mi caverna cuando debido acaso a la excesiva anchura se produjo un hundimiento lateral, cayendo tanta piedra que llegó a atemorizarme y no sin motivo, pues si hubiera estado debajo no habría necesitado sepulturero. Este desastre me obligó a reanudar el duro trabajo, sacando fuera lo que se había desplomado y asegurando el techo para que no volara.
 
 
 
-    11 de diciembre — De acuerdo con lo decidido coloqué dos puntales contra el techo con dos tablas cruzadas en su extremidad. Terminé la tarea al día siguiente, y agregando luego otros postes con tablones que sostuvieron el techo pude asegurarlo firmemente una semana más tarde. Como los postes habían sido dispuestos en hileras, me sirvieron para establecer distintas habitaciones en mi nueva casa.
+	\fecha{11 de diciembre} — De acuerdo con lo decidido coloqué dos puntales contra el techo con dos tablas cruzadas en su extremidad. Terminé la tarea al día siguiente, y agregando luego otros postes con tablones que sostuvieron el techo pude asegurarlo firmemente una semana más tarde. Como los postes habían sido dispuestos en hileras, me sirvieron para establecer distintas habitaciones en mi nueva casa.
 
 
 
-    17 de noviembre — Desde la fecha hasta el veinte estuve fijando estanterías y poniendo clavos en los postes para colgar diversas cosas; ya empiezo a encontrar ordenada mi casa.
+	\fecha{17 de noviembre} — Desde la fecha hasta el veinte estuve fijando estanterías y poniendo clavos en los postes para colgar diversas cosas; ya empiezo a encontrar ordenada mi casa.
 
 
 
-    20 de diciembre — Llevé al interior de la cueva todas mis cosas, y comencé a amueblarla poniendo algunos tablones a modo de aparador para las vituallas. Empiezan a faltarme tablas, pero aún alcanzaron para hacer otra mesa.
+	\fecha{20 de diciembre} — Llevé al interior de la cueva todas mis cosas, y comencé a amueblarla poniendo algunos tablones a modo de aparador para las vituallas. Empiezan a faltarme tablas, pero aún alcanzaron para hacer otra mesa.
 
 
 
-    24 de diciembre — Llovió todo el día y toda la noche, sin que pudiera salir.
+	\fecha{24 de diciembre} — Llovió todo el día y toda la noche, sin que pudiera salir.
 
 
 
-    25 de diciembre — Llovió todo el día.
+	\fecha{25 de diciembre} — Llovió todo el día.
 
 
 
-    26 de diciembre — Cesó la lluvia, refrescando la tierra de un modo muy agradable.
+	\fecha{26 de diciembre} — Cesó la lluvia, refrescando la tierra de un modo muy agradable.
 
 
 
-    27 de diciembre — Maté una cabra y herí a otra, alcanzando a apresarla y llevarla a casa sujeta con una cuerda. Allí le entablillé y vendé la pata rota.
+	\fecha{27 de diciembre} — Maté una cabra y herí a otra, alcanzando a apresarla y llevarla a casa sujeta con una cuerda. Allí le entablillé y vendé la pata rota.
 
 
 
     NOTA: Tanto la cuidé que se mejoró, quedándole la pata igual que antes. A causa de mis cuidados se domesticó, comía del césped en torno a mi casa y no se alejaba mucho. Por primera vez pensé en la posibilidad de criar animales domésticos para que no me faltaran alimentos el día en que se concluyera la pólvora.
 
-    28, 29 y 30 de diciembre — Fuertes calores y ninguna brisa, de modo que apenas salía al atardecer en busca de alimentos. Pasé este tiempo ordenando mis cosas.
+	\fecha{28, 29 y 30 de diciembre} — Fuertes calores y ninguna brisa, de modo que apenas salía al atardecer en busca de alimentos. Pasé este tiempo ordenando mis cosas.
 
 
 
-    1.o de enero — Todavía muy caluroso, por lo que salía temprano y al anochecer con la escopeta, descansando a mitad del día. Al entrar esta tarde en los valles que conducen al centro de la isla hallé gran cantidad de cabras, aunque tan asustadizas que era difícil acercarse. Se me ocurrió  L que acaso mi perro fuera capaz de echarlas hacia mi lado.
+	\fecha{1 de enero} — Todavía muy caluroso, por lo que salía temprano y al anochecer con la escopeta, descansando a mitad del día. Al entrar esta tarde en los valles que conducen al centro de la isla hallé gran cantidad de cabras, aunque tan asustadizas que era difícil acercarse. Se me ocurrió  L que acaso mi perro fuera capaz de echarlas hacia mi lado.
 
 
 
-    2  de enero — Llevé al perro y lo solté a las cabras, pero contra lo que esperaba le hicieron frente, y él advirtió el peligro sin animarse a avanzar.
+	\fecha{2  de enero} — Llevé al perro y lo solté a las cabras, pero contra lo que esperaba le hicieron frente, y él advirtió el peligro sin animarse a avanzar.
 
 
 
-    3  de enero — Empecé el muro o empalizada, y en previsión de algún posible ataque traté de darle una extraordinaria solidez y tamaño.
+	\fecha{3  de enero} — Empecé el muro o empalizada, y en previsión de algún posible ataque traté de darle una extraordinaria solidez y tamaño.
 
 
 
@@ -603,7 +567,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    16 de abril — Terminé la escalera con la cual trepaba a la empalizada, retirándola luego y dejándola del lado de adentro. Esto me aislaba totalmente y nadie podía llegar hasta mí a menos que escalara la pared.
+	\fecha{16 de abril} — Terminé la escalera con la cual trepaba a la empalizada, retirándola luego y dejándola del lado de adentro. Esto me aislaba totalmente y nadie podía llegar hasta mí a menos que escalara la pared.
 
 
 
@@ -629,7 +593,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    22 de abril — A la mañana siguiente me dispuse a poner en práctica mis decisiones, pero el gran problema lo constituían las herramientas. Tenía tres grandes hachas, abundancia de hachuelas (que habíamos llevado en cantidad para el intercambio con los negros), pero de tanto cortar madera dura estaban llenas de muescas y sin filo. Tenía una piedra de afilar, pero no era posible hacerla dar vueltas al mismo tiempo que aplicaba las hojas; este problema me ocupó tanto tiempo como a un hombre de estado resolver una difícil situación política o a un juez la vida o muerte de un hombre. Por fin armé la rueda con un cable que la pusiera en movimiento con el impulso del pie, dejándome ambas manos libres.
+	\fecha{22 de abril} — A la mañana siguiente me dispuse a poner en práctica mis decisiones, pero el gran problema lo constituían las herramientas. Tenía tres grandes hachas, abundancia de hachuelas (que habíamos llevado en cantidad para el intercambio con los negros), pero de tanto cortar madera dura estaban llenas de muescas y sin filo. Tenía una piedra de afilar, pero no era posible hacerla dar vueltas al mismo tiempo que aplicaba las hojas; este problema me ocupó tanto tiempo como a un hombre de estado resolver una difícil situación política o a un juez la vida o muerte de un hombre. Por fin armé la rueda con un cable que la pusiera en movimiento con el impulso del pie, dejándome ambas manos libres.
 
 
 
@@ -637,7 +601,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    28 y 29 de abril — Pasé estos días afilando mis herramientas y tuve la alegría de que la máquina funcionara muy bien.
+	\fecha{28 y 29 de abril} — Pasé estos días afilando mis herramientas y tuve la alegría de que la máquina funcionara muy bien.
 
 
 
@@ -650,7 +614,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    Primero de mayo — Mirando hacia la playa de mañana a la hora del reflujo, vi un objeto bastante grande y semejante a un barril. Me acerqué y hallé un pequeño tonel y dos o tres pedazos del barco que el reciente huracán había tirado a la costa. Mirando hacia el casco mismo, me pareció que emergía del agua más que en días anteriores. Examiné el barril y vi que contenía pólvora, pero tan mojada que estaba dura como piedra. Lo hice rodar para alejarlo de las olas y me acerqué cuanto pude por la playa a fin de examinar el casco más de cerca.
+	\fecha{Primero de mayo} — Mirando hacia la playa de mañana a la hora del reflujo, vi un objeto bastante grande y semejante a un barril. Me acerqué y hallé un pequeño tonel y dos o tres pedazos del barco que el reciente huracán había tirado a la costa. Mirando hacia el casco mismo, me pareció que emergía del agua más que en días anteriores. Examiné el barril y vi que contenía pólvora, pero tan mojada que estaba dura como piedra. Lo hice rodar para alejarlo de las olas y me acerqué cuanto pude por la playa a fin de examinar el casco más de cerca.
 
     Cuando llegué a su lado noté que había cambiado extrañamente de posición. El castillo de proa, antes enterrado en la arena, estaba ahora a seis pies de elevación; la popa, que se había partido y separado del resto por la violencia del mar —poco después que yo cesara de explorarla—, estaba tumbada de lado y la arena se acumulaba de tal manera en aquella parte, hasta la popa, que pude llegar caminando a ella cuando antes debía nadar cerca de un cuarto de milla. Al principio me maravillé, pero pronto deduje que el cambio se debía al terremoto. Y como a causa de esto el barco estaba más destrozado que antes, diariamente llegaban objetos a la playa que el viento y el oleaje sacaban del navío y depositaban en tierra.
 
@@ -658,61 +622,61 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    3 al 17 de mayo — Fui diariamente al casco, extraje gran cantidad de madera, planchas y tablones, así como unas trescientas libras de hierro.
+	\fecha{3 al 17 de mayo} — Fui diariamente al casco, extraje gran cantidad de madera, planchas y tablones, así como unas trescientas libras de hierro.
 
 
 
-    24 de mayo — Trabajé hasta hoy en el casco del barco, aflojando con la palanca diversas partes que flotaron en cuanto se levantó viento, pero como por desgracia soplaba de la costa nada llegó a tierra salvo algunas maderas y un barril que contenía salazón de cerdo del Brasil, tan estropeado por el agua que no era de ningún provecho.
+	\fecha{24 de mayo} — Trabajé hasta hoy en el casco del barco, aflojando con la palanca diversas partes que flotaron en cuanto se levantó viento, pero como por desgracia soplaba de la costa nada llegó a tierra salvo algunas maderas y un barril que contenía salazón de cerdo del Brasil, tan estropeado por el agua que no era de ningún provecho.
 
     Seguí trabajando en el casco hasta el 15 de junio, salvo los momentos dedicados a cazar, que elegía a las horas de marea alta para tener tiempo libre durante el reflujo. Ya entonces había obtenido suficiente madera y herraje como para construir un buen bote si hubiera sabido cómo. También saqué poco a poco y en muchos pedazos casi cien libras de plomo.
 
 
 
-    16 de junio — Yendo hacia la playa encontré una enorme tortuga. Era la primera que veía, más por mala suerte que por otra cosa, ya que si hubiera ido al otro lado de la isla habría encontrado cientos de ellas, como lo descubrí más tarde; pero acaso me hubiera salido aquello demasiado caro.
+	\fecha{16 de junio} — Yendo hacia la playa encontré una enorme tortuga. Era la primera que veía, más por mala suerte que por otra cosa, ya que si hubiera ido al otro lado de la isla habría encontrado cientos de ellas, como lo descubrí más tarde; pero acaso me hubiera salido aquello demasiado caro.
 
 
 
-    17 de junio — Pasé el día cocinando la tortuga, dentro de la cual había sesenta huevos. Su carne me pareció en esa ocasión la más deliciosa que hubiera probado en mi vida, ya que desde mi arribo a tan triste lugar mi único alimento habían sido las cabras y las aves.
+	\fecha{17 de junio} — Pasé el día cocinando la tortuga, dentro de la cual había sesenta huevos. Su carne me pareció en esa ocasión la más deliciosa que hubiera probado en mi vida, ya que desde mi arribo a tan triste lugar mi único alimento habían sido las cabras y las aves.
 
 
 
-    18  de junio — Llovió el día entero y me quedé dentro. Esta vez encontré que el agua era muy fría y sentí escalofríos, lo que me pareció muy raro en estas latitudes.
+	\fecha{18  de junio} — Llovió el día entero y me quedé dentro. Esta vez encontré que el agua era muy fría y sentí escalofríos, lo que me pareció muy raro en estas latitudes.
 
 
 
-    19 de junio — Muy enfermo y temblando como si hiciese mucho frío.
+	\fecha{19 de junio} — Muy enfermo y temblando como si hiciese mucho frío.
 
 
 
-    20 de junio — No dormí en toda la noche; terrible dolor de cabeza, fiebre.
+	\fecha{20 de junio} — No dormí en toda la noche; terrible dolor de cabeza, fiebre.
 
 
 
-    21  de junio — Muy enfermo, mortalmente asustado con la idea de sentirme tan mal y no tener ayuda alguna. Rogué a Dios .por primera vez desde la tempestad en Hull, pero apenas recuerdo lo que dije y por qué lo dije. Mis pensamientos eran confusos.
+	\fecha{21  de junio} — Muy enfermo, mortalmente asustado con la idea de sentirme tan mal y no tener ayuda alguna. Rogué a Dios por primera vez desde la tempestad en Hull, pero apenas recuerdo lo que dije y por qué lo dije. Mis pensamientos eran confusos.
 
 
 
-    22  de junio — Algo mejor, pero lleno de aprensiones por mi enfermedad.
+	\fecha{22  de junio} — Algo mejor, pero lleno de aprensiones por mi enfermedad.
 
 
 
-    23  de junio — Otra vez muy mal; tiritando de frío y luego con una fuerte jaqueca.
+	\fecha{23  de junio} — Otra vez muy mal; tiritando de frío y luego con una fuerte jaqueca.
 
 
 
-    24 de junio — Mucho mejor.
+	\fecha{24 de junio} — Mucho mejor.
 
 
 
-    25 de junio — Violenta calentura. La crisis duró siete horas, con alternancias de calor y frío y luego una copiosa transpiración.
+	\fecha{25 de junio} — Violenta calentura. La crisis duró siete horas, con alternancias de calor y frío y luego una copiosa transpiración.
 
 
 
-    26 de junio — Mejor. No teniendo qué comer salí con la escopeta, sintiéndome muy débil. Con todo maté una cabra, la traje penosamente a casa y luego de cocer un pedazo lo comí. Hubiera preferido hervirlo y hacer un poco de caldo, pero no tenía olla.
+	\fecha{26 de junio} — Mejor. No teniendo qué comer salí con la escopeta, sintiéndome muy débil. Con todo maté una cabra, la traje penosamente a casa y luego de cocer un pedazo lo comí. Hubiera preferido hervirlo y hacer un poco de caldo, pero no tenía olla.
 
 
 
-    27  de junio — Tan violenta calentura que estuve el día entero en cama sin comer ni beber. Me parecía que iba a morir de sed, sintiéndome demasiado débil para levantarme en busca de agua. Rogué otra vez a Dios, pero en mi delirio e ignorando lo que debía decir sólo atinaba a implorar: « ¡Señor, apiádate! ¡Señor, protégeme! ¡Ten compasión de mí, Señor!» Estuve así continuamente por dos o tres horas hasta que la calentura cedió y quedé dormido; me desperté ya entrada la noche. Me sentía mejor, pero muy débil y con una sed continua. No tenía agua en mi habitación de modo que hube de esperar hasta la mañana, durmiendo entretanto. Mientras dormía tuve un sueño terrible.
+	\fecha{27  de junio} — Tan violenta calentura que estuve el día entero en cama sin comer ni beber. Me parecía que iba a morir de sed, sintiéndome demasiado débil para levantarme en busca de agua. Rogué otra vez a Dios, pero en mi delirio e ignorando lo que debía decir sólo atinaba a implorar: « ¡Señor, apiádate! ¡Señor, protégeme! ¡Ten compasión de mí, Señor!» Estuve así continuamente por dos o tres horas hasta que la calentura cedió y quedé dormido; me desperté ya entrada la noche. Me sentía mejor, pero muy débil y con una sed continua. No tenía agua en mi habitación de modo que hube de esperar hasta la mañana, durmiendo entretanto. Mientras dormía tuve un sueño terrible.
 
     Soñé que estaba sentado en el suelo, más allá de la empalizada, donde permanecí mientras la tormenta arreciaba después del terremoto, y que veía un hombre que se acercaba en una oscura nube, envuelto en un halo de fuego que iluminaba el terreno; brillaba de tal manera que apenas podía soportar su presencia. Su aspecto era tan imponente que no hay palabras para describirlo. Cuando posé los pies en tierra creí que el suelo temblaba con un nuevo terremoto, y el aire entero pareció llenarse, para mi mayor espanto, de ígneas lenguas. Apenas había descendido cuando se adelantó hacia mí, con una lanza en la mano para matarme; de pie en una eminencia, oí que me hablaba con voz tan terrible que es imposible tratar de describir el espanto que me produjo. Todo lo que alcancé a entender fue esto: «puesto que lo que has visto no te ha movido a arrepentirte, ahora morirás». Y levantó la lanza para atravesarme con ella.
 
@@ -730,7 +694,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    28 de junio — Algo aliviado por el profundo sueño, y encontrando que había pasado el acceso, conseguí levantarme todavía aterrado por el recuerdo de lo que había soñado; alcancé, sin embargo, a pensar que la calentura volvería al siguiente día y que ahora era momento de procurarme agua y alimentos que necesitaría después. Llené de agua una gran damajuana y la puse sobre la mesa, al alcance de mi lecho; para quitarle lo que pudiera causarme más fiebre mezclé en ella un cuarto de pinta de ron. Luego asé un pedazo de carne de cabra, pudiendo comer unos pocos bocados. Estaba tan débil que apenas pude moverme; me agobiaban la tristeza y el temor de que la calentura volviera al día siguiente. Por la noche cené tres huevos de tortuga que cocí enteros en las cenizas; y hasta donde alcanzo a recordar ésa fue la primera comida para la cual solicité la bendición de Dios.
+	\fecha{28 de junio} — Algo aliviado por el profundo sueño, y encontrando que había pasado el acceso, conseguí levantarme todavía aterrado por el recuerdo de lo que había soñado; alcancé, sin embargo, a pensar que la calentura volvería al siguiente día y que ahora era momento de procurarme agua y alimentos que necesitaría después. Llené de agua una gran damajuana y la puse sobre la mesa, al alcance de mi lecho; para quitarle lo que pudiera causarme más fiebre mezclé en ella un cuarto de pinta de ron. Luego asé un pedazo de carne de cabra, pudiendo comer unos pocos bocados. Estaba tan débil que apenas pude moverme; me agobiaban la tristeza y el temor de que la calentura volviera al día siguiente. Por la noche cené tres huevos de tortuga que cocí enteros en las cenizas; y hasta donde alcanzo a recordar ésa fue la primera comida para la cual solicité la bendición de Dios.
 
     Quise caminar un poco después de la cena, pero apenas podía sostener la escopeta, que jamás abandonaba al salir; a poco de andar me senté en tierra, mirando hacia el mar que se extendía sereno a lo lejos. Y allí se me ocurrieron estos pensamientos: que todo cuanto me ocurría era por la voluntad de Dios; que había sido llevado a tan miserable situación por Su decisión, puesto que El tenía poder no sólo sobre mí sino sobre todo cuanto ocurría en el universo. De inmediato me pregunté: « ¿Por qué Dios ha hecho esto conmigo? ¿Cuál ha sido mi culpa para ser tratado así?»
 
@@ -750,7 +714,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
     El 30 estaba ya restablecido y me animé a salir con la escopeta aunque sin alejarme mucho. Maté una o dos aves marinas parecidas a los ánades y las traje a casa aunque sin mucha disposición para comerlas, de manera que me sustenté con algunos huevos de tortuga, que eran excelentes. Por la noche renové la medicina que imaginaba me había hecho tanto bien, o sea la infusión de tabaco con ron, pero bebí una dosis más pequeña, sin masticar aparte tabaco ni aspirar el humo. Al día siguiente ya no me sentía tan bien como esperaba, porque tuve algunos escalofríos de fiebre, aunque en pequeña escala.
 
-    4 de julio — Por la mañana abrí la Biblia empezando a leer el Nuevo Testamento, dispuesto a hacer lo mismo todas las mañanas y las noches, sin proponerme un determinado número de capítulos sino llegar cada vez hasta donde mis pensamientos fueran claros.
+	\fecha{4 de julio} — Por la mañana abrí la Biblia empezando a leer el Nuevo Testamento, dispuesto a hacer lo mismo todas las mañanas y las noches, sin proponerme un determinado número de capítulos sino llegar cada vez hasta donde mis pensamientos fueran claros.
 
     Empecé a interpretar el pasaje ya mencionado —«Invócame y te libraré»— en un sentido distinto del que antes le diera; porque hasta ese momento mi concepto de la liberación se refería únicamente al cautiverio en que me hallaba. Cierto que vivía libre en una isla, pero para mí era una cárcel en el más duro sentido de la palabra. Ahora principié a imaginar otro modo de libertad, al contemplar con horror mi pasada vida, y mis pecados surgieron tan terriblemente ante mí que mi alma sólo ansiaba de Dios liberación de ese insoportable peso de culpas que la privaba de toda alegría.
 
@@ -766,7 +730,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
     Busqué entre ellas alguna raíz de cazabe o yuca, con la cual los indios de aquellas latitudes fabrican su pan, pero no vi ninguna. Había grandes plantas de áloe, cuya utilidad desconocía entonces, y mucha caña de azúcar en estado silvestre y, por lo tanto, poco aprovechable. Me contenté ese día con tales descubrimientos y volví meditando cómo podría arreglármelas para conocer las virtudes de las plantas y frutos que iba descubriendo. Desgraciadamente no arribé a ninguna conclusión, porque tan poco observador había sido mientras viví en el Brasil que no sabía nada de sus productos naturales, o tan poco que apenas podía ayudarme en mi presente desgracia.
 
-    Al día siguiente," 6 de julio, seguí el mismo camino y avanzando más allá encontré que el arroyo y las sabanas se iban perdiendo y que la región era más boscosa. Hallé diferentes frutos, en especial melones en abundancia y uvas entre los árboles. Las viñas habían crecido entremezcladas en los árboles, y magníficos racimos ya maduros pendían de las ramas. Tan extraordinario descubrimiento me llenó de alegría, pero tuve cuidado de no excederme en la cantidad de uvas que comía porque recordaba lo sucedido en Berbería, donde muchos ingleses esclavos perecieron a causa de las fiebres y disentería que les produjo comer demasiada cantidad de esta fruta. Se me ocurrió que la mejor manera de aprovecharlas era ponerlas a secar al sol para conservar las pasas que tan grato me resultaría comer en las épocas en que ya no hubiera uvas maduras en las viñas. Pasé allí la noche sin regresar a mi casa, cosa que ocurría por primera vez desde que estaba en la isla. Recordando mi anterior precaución, trepé a un árbol apenas oscureció y dormí perfectamente; por la mañana mi exploración me llevó cuatro millas más allá, según juzgué por el largo del valle que se extendía hacia el norte, con una cresta de colinas al sur y al norte de donde yo me hallaba.
+    Al día siguiente, 6 de julio, seguí el mismo camino y avanzando más allá encontré que el arroyo y las sabanas se iban perdiendo y que la región era más boscosa. Hallé diferentes frutos, en especial melones en abundancia y uvas entre los árboles. Las viñas habían crecido entremezcladas en los árboles, y magníficos racimos ya maduros pendían de las ramas. Tan extraordinario descubrimiento me llenó de alegría, pero tuve cuidado de no excederme en la cantidad de uvas que comía porque recordaba lo sucedido en Berbería, donde muchos ingleses esclavos perecieron a causa de las fiebres y disentería que les produjo comer demasiada cantidad de esta fruta. Se me ocurrió que la mejor manera de aprovecharlas era ponerlas a secar al sol para conservar las pasas que tan grato me resultaría comer en las épocas en que ya no hubiera uvas maduras en las viñas. Pasé allí la noche sin regresar a mi casa, cosa que ocurría por primera vez desde que estaba en la isla. Recordando mi anterior precaución, trepé a un árbol apenas oscureció y dormí perfectamente; por la mañana mi exploración me llevó cuatro millas más allá, según juzgué por el largo del valle que se extendía hacia el norte, con una cresta de colinas al sur y al norte de donde yo me hallaba.
 
     Al fin de este recorrido vine a dar a un espacio abierto, y allí el terreno parecía descender hacia el oeste; un arroyuelo que nacía en las laderas de la colina bajaba en dirección contraria, es decir, al este; la región eran tan fresca, tan fértil y florida, que al ver ese derroche de vegetación se la hubiera tomado por un jardín en primavera.
 
@@ -796,7 +760,7 @@ Pero me encuentro en una isla donde no he visto animales feroces que me amenacen
 
 
 
-    30 de setiembre — Llegó finalmente el triste aniversario de mi naufragio. Conté las marcas en el poste y vi que llevaba en la isla trescientos sesenta y cinco días. Consideré ese día como de ayuno, y lo dediqué a meditaciones religiosas.
+	\fecha{30 de setiembre} — Llegó finalmente el triste aniversario de mi naufragio. Conté las marcas en el poste y vi que llevaba en la isla trescientos sesenta y cinco días. Consideré ese día como de ayuno, y lo dediqué a meditaciones religiosas.
 
     Hasta entonces no había observado nunca el domingo, ya que olvidándome de señalarlos con una línea más grande, perdí la cuenta de cuáles eran los días.
 
