@@ -1,0 +1,3 @@
+[submodule "novela"]
+	path = novela
+	url = https://github.com/ne555/novela
